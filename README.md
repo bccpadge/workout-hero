@@ -15,7 +15,7 @@ Convert this design to code, attempting to get it as close as possible using HTM
 
 ## Demo
 
-- GitHub Pages: [GitHub Pages]()
+- GitHub Pages: [GitHub Pages](https://bccpadge.github.io/workout-hero/)
 
 
 ## Useful Resources 
