@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content=" WebDevDaily - Workout Hero" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta name="author" content="Rebecca Padgett" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+  <title>Workout Hero | WebDevDaily</title>
+  <!-- !font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <!-- !css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- !js -->
+  <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="header wrapper">
+    <a href="#" class="logo">FitGuru</a>
+    <button class="navbar-toggle" data-js-toggle aria-controls="navbar-list" aria-expanded="false">
+      <span class="visually-hidden">Open Navigation</span>
+      <i class="icon-hamburger fas fa-bars"></i>
+      <i class="icon-close fas fa-times"></i>
+    </button>
+    <nav>
+      <ul class="navbar-list" data-js-list id="navbar-list" role="list">
+        <li>
+          <a href="#" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Trainers</a>
+        </li>
+        <li>
+          <a href="#">Review</a>
+        </li>
+        <li>
+          <a href="#">Plans</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="btn-primary join-btn">Join Now</button>
+  </header>
+  <main>
+    <h1 class="visually-hidden">Welcome to FitGuru</h1>
+    <section class="hero wrapper" aria-labelledby="hero-title">
+      <div class="hero-text-group">
+        <h2 id="hero-title">Elevate Your Workout</h2>
+        <p>
+          FitGuru is your ultimate fitness companion, offering personalized workout plans, expert guidance, and a
+          supportive community. Elevate fitness journey and achieve your goals with tailored routines and progress
+          tracking.
+          Start your path to a stronger today!
+        </p>
+        <div class="hero-btn-group">
+          <button class="btn-primary hero-btn">Get Started</button>
+          <button class="btn-secondary">
+            <i class="fa-regular fa-circle-play"></i>
+            Play video
+          </button>
+        </div>
+        <ul class="social-list" role="list">
+          <li>
+            <a href="#" aria-label="FitGuru profile for Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="FitGuru profile for Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="FitGuru profile for LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="FitGuru profile for GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <figure class="hero-banner">
+        <img src="./assets/images/hero-banner.png" width="413" height="604" loading="lazy" alt="A man in a gray hoodie">
+        <figcaption class="visually-hidden">A man in a gray hoodie</figcaption>
+      </figure>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
