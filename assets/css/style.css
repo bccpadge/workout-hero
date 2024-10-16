@@ -118,11 +118,11 @@ ol[role="list"] {
 
 body {
   font-family: var(--ff-body);
-
+  min-height: 100dvh;
 
   @media (width > 50rem) {
     background-image: linear-gradient(to right, #fff 0%, #fff 70%, #1f1f1f 70%, #1f1f1f 100%);
-    overflow: hidden;
+
   }
 }
 
